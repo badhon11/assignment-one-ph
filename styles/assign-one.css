@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header styles */
+.header {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    height: 808px;
+    display: flex;
+
+}
+
+.head-container {
+    position: absolute;
+    right: 0px;
+    width: 500px;
+    color: white;
+    text-align: right;
+    padding-right: 220px;
+    padding-top: 220px;
+}
+
+.head-title {
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 30px;
+}
+
+.head-description {
+    font-weight: 400;
+    font-size: 16px;
+}
