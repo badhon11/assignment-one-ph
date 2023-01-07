@@ -31,4 +31,61 @@
 .head-description {
     font-weight: 400;
     font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.contact-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    padding: 20px 25px;
+    border-radius: 5px;
+    border-width: 0;
+}
+
+/* main styles */
+
+main {
+    max-width: 1260px;
+    margin: 130px auto;
+}
+
+/* failure section */
+
+.my-failure {
+    display: flex;
+}
+
+.fail-detail {
+    max-width: 420px;
+    margin-left: 90px;
+}
+
+.fail-title {
+    font-weight: bolder;
+    font-size: 40px;
+    color: #151414;
+    margin-top: 240px;
+    margin-bottom: 24px;
+}
+
+.fail-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.fail-points {
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+.fail-point-icon {
+    height: 22px;
+    width: 24px;
+    margin-right: 14px;
 }
