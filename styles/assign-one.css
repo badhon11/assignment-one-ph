@@ -47,7 +47,8 @@
 
 main {
     max-width: 1260px;
-    margin: 130px auto;
+    margin: 130px 200px 0px 200px;
+
 }
 
 /* failure section */
@@ -61,7 +62,7 @@ main {
     margin-left: 90px;
 }
 
-.fail-title {
+.section-title {
     font-weight: bolder;
     font-size: 40px;
     color: #151414;
@@ -88,4 +89,127 @@ main {
     height: 22px;
     width: 24px;
     margin-right: 14px;
+}
+
+/* my plans styles */
+
+.my-plans {
+    margin: 0;
+}
+
+.plan-set {
+    /* width:max-content; */
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.plan-set img {
+    align-items: center;
+    margin: 0px auto 30px auto;
+    /* margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto; */
+}
+
+.plan-set p {
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+}
+
+/* watch banner styles */
+
+.watch-banner {
+    margin-top: 130px;
+    margin-bottom: 130px;
+    /* background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%); */
+    background: linear-gradient(to right, #005FAC, white), url('../images/watch.png');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    border-radius: 5px;
+    padding-left: 64px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.positive-mind h3 {
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 24px;
+}
+
+/* footer styles */
+footer {
+    background: #151414;
+    display: flex;
+    color: #F8F8F8;
+    justify-content: space-evenly;
+    padding: 130px 230px;
+    gap: 330px;
+}
+
+.future {
+    max-width: 600px;
+    padding: 0;
+    margin: 0;
+}
+
+.future p {
+    margin: 16px 0;
+}
+
+.future a {
+    margin-right: 17px;
+}
+
+footer h3 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.subscribe {
+    max-width: 330;
+    margin-left: 300;
+}
+
+.subscribe h4 {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.subscribe input {
+    background-color: #151414;
+    width: 325px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    padding: 22px;
+}
+
+.subscribe-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: #005FAC;
+    padding: 20px 36px;
+    border-radius: 5px;
+    border-width: 0;
+    margin-top: 16px;
 }
