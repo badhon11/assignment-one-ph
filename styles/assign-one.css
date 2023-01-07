@@ -147,6 +147,44 @@ main {
     margin-bottom: 24px;
 }
 
+/* my hobbies styles */
+
+.my-hobbies {
+    margin-bottom: 130px;
+}
+
+
+.hobby-set {
+    /* width:max-content; */
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 30px;
+}
+
+.hobby-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.hobby-set img {
+    align-items: center;
+    margin: 0px auto 30px auto;
+    height: 90px;
+    width: 90px;
+    /* margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto; */
+}
+
+.hobby-set p {
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+}
+
 /* footer styles */
 footer {
     background: #151414;
